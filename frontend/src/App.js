@@ -6,6 +6,7 @@ import Navbar from "./page/Navbar";
 import Services from "./page/Services";
 import Contact from "./page/Contact";
 import About from "./page/About";
+import Booking from "./page/Booking";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -23,6 +24,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/booking" element={<Booking />} />
         </Routes>
       </Router>
     </div>
